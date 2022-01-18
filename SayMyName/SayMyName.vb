@@ -1,8 +1,8 @@
-﻿' Miranda Breves
+﻿'Miranda Breves
 'RCET0265
 'Spring 2022
 'Say My Name
-'url
+'https://github.com/MEBreves/SayMyName
 
 Option Explicit On
 Option Strict On
@@ -17,16 +17,12 @@ Module SayMyName
         Console.WriteLine("Hello, what's your name?")
         name = Console.ReadLine()
 
-        'Creating a blank space to make the interaction pretty
-        Console.WriteLine()
 
+        Console.WriteLine() 'Creating a blank space to make the interaction pretty
         Console.WriteLine("It's nice to meet you, " & CStr(name) & ".")
 
-        'Creating another blank space for formatting.
-        Console.WriteLine()
-
+        Console.WriteLine() 'Creating another blank space for formatting.
         Console.WriteLine("Press any key to exit this program.")
-
         Console.Read()
 
     End Sub
